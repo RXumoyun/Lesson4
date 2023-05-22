@@ -1,0 +1,11 @@
+@import'../global.scss';
+
+.header{
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: $color;
+}
+.btn{
+    @include button()
+}
